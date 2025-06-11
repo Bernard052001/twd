@@ -2,6 +2,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background-color: whitesmoke;
 }
 
 header {
@@ -24,6 +25,12 @@ header {
   text-decoration: none;
 }
 
+.menu a
+{
+  text-decoration: none;
+  color: black;
+}
+
 .menu-item {
   position: relative;
   padding: 10px 15px;
@@ -32,7 +39,7 @@ header {
   text-decoration: none;
   font-weight: bolder;
   font-style: italic;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
 .menu-item:hover {
@@ -92,15 +99,15 @@ header {
   text-align: center;
   font-size: 1em;
   color: black;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: italic;
+  font-family: "Montserrat", serif !important;
+
 }
 
 #i5
 {
   margin-top: 10px;
   text-align: justify ;
-  border: .5rem solid whitesmoke;
+  border: .2rem, solid #9c9c9c;
   max-width: 700px;
   padding: 20px;
   margin-left: 384px;
@@ -116,8 +123,8 @@ header {
   text-align: center;
   font-size: 1em;
   color: black;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: italic;
+  font-family: "Montserrat", serif !important;
+
 }
 
 .mp
@@ -130,8 +137,7 @@ header {
   text-align: center;
   font-size: 1em;
   color: black;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: italic;
+font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
 

@@ -24,6 +24,12 @@ header {
   text-decoration: none;
 }
 
+.menu a
+{
+  text-decoration: none;
+  color: black;
+}
+
 .menu-item {
 position: relative;
   padding: 10px 15px;
@@ -32,7 +38,7 @@ position: relative;
   text-decoration: none;
   font-weight: bolder;
   font-style: italic;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
 .menu-item:hover {
@@ -99,10 +105,9 @@ position: relative;
 
 .ts1
 {
-font-style: italic;
-font-family: system-ui,'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-border: 2px, black;
- text-align: center;
+  font-family: "Montserrat", serif !important;
+  border: 2px, black;
+  text-align: center;
   font-size: 1.2em;
   color: black;  
 }
@@ -207,3 +212,14 @@ border: 2px, black;
       text-align: right;
       line-height: 0;
     }
+#s1 a
+{
+  text-decoration: none;
+  color:#0195ff;
+  font-family: "Montserrat", serif !important;
+}
+
+#s
+{
+   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
