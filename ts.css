@@ -42,7 +42,7 @@ font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
 .menu-item:hover {
-  background-color: whitesmoke;
+text-decoration: underline;
 }
 
 .dropdown-menu {
@@ -66,7 +66,7 @@ font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
 .dropdown-menu li:hover {
-  background-color: rgb(180, 180, 180);
+ text-decoration: underline;
 }
 
 .menu-item.dropdown:hover .dropdown-menu {
@@ -101,6 +101,7 @@ font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 .ts
 {
     text-align: center;
+    
 }
 
 .ts1
@@ -121,17 +122,18 @@ font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 {
   margin-top: 10px;
     text-align: center;
-    border: .5rem solid  rgb(121, 121, 121);
+     border: .3rem, solid rgb(180,180,180);  
 }
 
 #ts0
 {
   text-align: justify ;
-  border: .5rem solid rgb(121, 121, 121);
-  max-width: 700px;
+  border: .05rem, solid rgb(180,180,180);
+    border-radius: 5px;
+    background-color: whitesmoke;
   padding: 20px;
-  margin-left: 378px;
-  background-color:whitesmoke;
+  margin-left: 26%;
+  margin-right: 26%;
 
 }
 
@@ -139,11 +141,16 @@ font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 {
   margin-left: 20px;
   position:absolute;
-  margin-top: 200px;
+  margin-top: 360px;
   font-size: large;
   font-style: italic;
   font-weight: bold;
   text-decoration: none;
+  padding: 15px;
+  border: .05rem, solid rgb(180,180,180);
+  border-radius: 5px;
+  background-color: whitesmoke;
+  margin-left: 44px;
 }
 
   footer {
@@ -215,11 +222,60 @@ font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 #s1 a
 {
   text-decoration: none;
-  color:#0195ff;
+  color:black;
   font-family: "Montserrat", serif !important;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);;
+  
 }
 
 #s
 {
-   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+   font-family: "Montserrat", serif !important;
+   text-decoration-line: underline;
 }
+
+      .arrow-up {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      background-color: whitesmoke;
+      color: black;
+      border: none;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: opacity 0.3s ease, transform 0.3s ease;
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    .arrow-up.show {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .arrow-up:hover {
+      transform: scale(1.1);
+      background-color: whitesmoke;
+    }
+
+    #fo
+    {
+      margin-top: 200px;
+    position: absolute;
+    display: flex;
+    align-items: left;
+    margin-left: 110px;
+    border-radius: 70%;
+    padding: 0%;
+    }
+
+    #s1 a:hover{
+      text-decoration: underline;
+    } 

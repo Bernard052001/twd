@@ -6,7 +6,7 @@
   <title>Tiaong Water District</title>
   <link rel="stylesheet" href="mv.css">
 </head>
-<body>
+<html>
   <header>
     
       <nav class="navbar">
@@ -31,7 +31,6 @@
 <body>
     <div class="m">
         <p>&nbsp;</p>
-         <p>&nbsp;</p>
         <h1>Mission & Vision</h1>
     </div>
     <div class="container">
@@ -56,16 +55,19 @@
         <h3>Disclaimer</h3>
         </div>
         <div id="f2">
-        <p>This site may contain links to external pages not managed by LGU Tiaong, Quezon. We are not responsible for their accuracy, relevance, or security.</p>
+        <p>This site may contain links to external pages not managed by Tiaong Water District. We are not responsible for their accuracy, relevance, or security.</p>
         <p>Content may only be used for personal, non-commercial purposes. Unauthorized reproduction or distribution is prohibited</p>
         </div>
         </div>
       <div class="footer-column">
         <div id="f3">
           <p>&nbsp;</p>
-          <img src="imgs/logo.png" alt "Tiaong Water District" width="100px", height="100px">
-          <img src="imgs/ts.png" alt "Transparancy" width="88px", height="88px">
-          <img src="imgs/ph.png" alt "gov.ph" width="100px", height="100px">
+          <a href="https://www.facebook.com/tiaongwd" target="_blank">
+          <img src="imgs/logo.png" alt="Tiaong Water District Logo" width="100", height="100"></a>
+          <a href="ts.html" target="_blank">
+          <img src="imgs/ts.png" alt="Philippine Flag" width="88", height="88"></a>
+          <a href="https://www.gov.ph" target="_blank">
+          <img src="imgs/ph.png" alt="Philippine Flag" width="100", height="100"></a>
         </div>
       </div>
       <div class="footer-column">
@@ -91,4 +93,27 @@
         </div>
       </div>
     </div>
+       <button class="arrow-up" id="arrowUp">&#8593;</button>
+
+  <script>
+    const arrowUp = document.getElementById('arrowUp');
+
+    // Show the button when scrolling down
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        arrowUp.classList.add('show');
+      } else {
+        arrowUp.classList.remove('show');
+      }
+    });
+
+    // Scroll to the top when the button is clicked
+    arrowUp.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  </script>
   </footer>
+  </html>
