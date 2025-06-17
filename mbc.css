@@ -241,3 +241,10 @@ text-decoration: underline;
       transform: scale(1.1);
       background-color: whitesmoke;
     }
+
+#p2
+{
+ width: 7vw; 
+  height: auto; /* Maintains the aspect ratio */
+  max-width: 100%;
+}

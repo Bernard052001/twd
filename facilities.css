@@ -252,5 +252,12 @@ text-decoration: underline;
 
 img{
   max-width: 100%;
-  height: auto; 
+  height: 300px; 
+}
+
+#p2
+{
+ width: 7vw; 
+  height: auto; /* Maintains the aspect ratio */
+  max-width: 100%;
 }

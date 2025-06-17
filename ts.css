@@ -115,7 +115,7 @@ text-decoration: underline;
   margin-bottom: 1%;
     text-align: center; 
       max-width: 100%;
-      position: relative;
+  
 }
 
 #ts0
@@ -135,7 +135,7 @@ text-decoration: underline;
 {
   margin-left: 3%;
   position:absolute;
-  font-size: 1.1vw;
+  font-size: 1.2vw;
   margin-top: 21%;
   font-style: italic;
   font-weight: bold;
@@ -302,3 +302,10 @@ text-decoration: underline;
     #s1 a:hover{
       text-decoration: underline;
     } 
+
+    #p2
+{
+ width: 7vw; 
+  height: auto; /* Maintains the aspect ratio */
+  max-width: 100%;
+}
